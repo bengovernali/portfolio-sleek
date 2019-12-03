@@ -4,7 +4,7 @@ class Header extends Component {
   render() {
     return (
       <div className="header">
-        <div className="title">Ben Governali</div>
+        <div className="site-title">Ben Governali</div>
         <div className="links">
           <a
             className="link"

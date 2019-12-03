@@ -24,7 +24,7 @@ a:hover {
   justify-content: space-between;
 }
 
-.title {
+.site-title {
   font-weight: bold;
   font-size: 2.4rem;
 }
@@ -37,4 +37,21 @@ a:hover {
 .link {
   padding: 0 1rem;
   font-size: 1.2rem;
+}
+
+.main {
+  padding: 7vh 5vw;
+}
+
+.title {
+  font-weight: bold;
+  font-size: 3rem;
+  width: 20vw;
+  padding-top: 10vh;
+}
+
+.description {
+  width: 25vw;
+  padding-top: 4vh;
+  line-height: 1.5rem;
 }
