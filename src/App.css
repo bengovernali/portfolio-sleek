@@ -43,6 +43,7 @@ a:hover {
 
 .main {
   padding: 10vh 15vw;
+  display: flex;
 }
 
 .title {
@@ -87,4 +88,20 @@ a:hover {
   display: inline-block;
   width: 23vw;
   border-radius: 23vw;
+}
+
+.triangle-right {
+  display: inline-block;
+  width: 0;
+  height: 0;
+  border-top: 20px solid transparent;
+  border-left: 40px solid white;
+  border-bottom: 20px solid transparent;
+  margin: auto 0;
+}
+
+.triangle-right:hover {
+  border-top: 22px solid transparent;
+  border-left: 44px solid white;
+  border-bottom: 22px solid transparent;
 }

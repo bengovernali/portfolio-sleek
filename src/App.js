@@ -12,6 +12,7 @@ class App extends Component {
           <Header />
           <div className="main">
             <Front />
+            <div className="triangle-right"></div>
           </div>
         </div>
       </div>
