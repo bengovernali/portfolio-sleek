@@ -15,7 +15,6 @@ class App extends Component {
             <Header />
             <div className="main">
               <Route path="/" exact component={Front} />
-              <div className="triangle-right"></div>
             </div>
           </div>
         </div>
