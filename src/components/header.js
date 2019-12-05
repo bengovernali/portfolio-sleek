@@ -22,7 +22,6 @@ class Header extends Component {
           >
             Linkedin
           </a>
-          <div className="link">About</div>
           <div className="link">Projects</div>
           <div className="link">Skills</div>
           <div className="link">Contact</div>

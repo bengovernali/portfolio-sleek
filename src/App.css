@@ -24,16 +24,20 @@ a:hover {
   display: flex;
   align-items: flex-end;
   justify-content: space-between;
+  position: fixed;
+  width: 100%;
 }
 
 .site-title {
   font-weight: bold;
   font-size: 2.4rem;
+  float: left;
 }
 
 .links {
   display: flex;
   font-weight: bold;
+  margin-right: 5vw;
 }
 
 .link {
@@ -44,6 +48,7 @@ a:hover {
 .main {
   padding: 10vh 15vw;
   display: flex;
+  margin: 0 auto;
 }
 
 .title {
@@ -90,18 +95,16 @@ a:hover {
   border-radius: 23vw;
 }
 
-.triangle-right {
-  display: inline-block;
-  width: 0;
-  height: 0;
-  border-top: 20px solid transparent;
-  border-left: 40px solid white;
-  border-bottom: 20px solid transparent;
-  margin: auto 0;
+.scroll-wrapper {
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: auto;
 }
 
-.triangle-right:hover {
-  border-top: 22px solid transparent;
-  border-left: 44px solid white;
-  border-bottom: 22px solid transparent;
+.project-card {
+  flex: 0 0 auto;
+  height: 400px;
+  width: 800px;
+  border: 1px solid white;
+  margin-right: 50vw;
 }
